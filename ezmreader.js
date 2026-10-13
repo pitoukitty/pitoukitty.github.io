@@ -69,9 +69,9 @@ metaTheme.content = BGCOLOR;
 document.head.appendChild(metaTheme);
 
 function getTextures(num) {
-    return ['pages/FRONT.png', 'pages/INNERFRONT.png'].concat(
-        new Array(num).fill().map((_, idx) => 'pages/' + (idx + 1) + '.png'),
-        ['pages/BACK.png']
+    return ['pages_CUTEBRIANNAS/FRONT.png', 'pages_CUTEBRIANNAS/INNERFRONT.png'].concat(
+        new Array(num).fill().map((_, idx) => 'pages_CUTEBRIANNAS/' + (idx + 1) + '.png'),
+        ['pages_CUTEBRIANNAS/BACK.png']
     );
 }
 
